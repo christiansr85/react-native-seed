@@ -5,8 +5,8 @@ import { StyleSheet, View } from 'react-native';
 import { Provider } from 'react-redux';
 
 import ScaryPeople from './components/scary-people';
-import configureStore from './configure.store';
 import client from './configure.graphql';
+import configureStore from './configure.store';
 
 let store = configureStore();
 
@@ -16,7 +16,6 @@ export default class App extends React.Component {
       <ApolloProvider client={client}>
         <Provider store={store}>
           <View style={styles.container}>
-            {/* <Text>Open up App.js to start working on your app!</Text> */}
             <ScaryPeople />
           </View>
         </Provider>

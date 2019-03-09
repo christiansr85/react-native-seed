@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://g3-kjc.anonymous.react-native-seed.exp.direct",
+  "packagerNgrokUrl": "https://packager.g3-kjc.anonymous.react-native-seed.exp.direct",
+  "ngrokPid": 17640
 }
