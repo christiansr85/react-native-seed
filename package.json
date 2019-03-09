@@ -6,6 +6,12 @@
     "ios": "expo start --ios",
     "eject": "expo eject"
   },
+  "keywords": [
+    "react native",
+    "redux",
+    "graphql",
+    "apollo"
+  ],
   "dependencies": {
     "apollo-cache-inmemory": "^1.5.1",
     "apollo-client": "^2.5.1",

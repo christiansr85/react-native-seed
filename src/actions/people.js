@@ -4,7 +4,6 @@ import { peopleQuery } from './graphql/queries';
 
 export function fetchPeople() {
   return (dispatch, getState) => {
-    const state = getState();
     dispatch({ type: ACTIONS.PEOPLE.FETCH_PEOPLE });
     client
       .query({
